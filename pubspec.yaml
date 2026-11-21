@@ -1,0 +1,39 @@
+name: arena_fury
+description: "Arena Fury - a 2D arcade fighting game built with Flutter, Flame and Firebase."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Game engine
+  flame: ^1.38.2
+
+  # Firebase backend
+  firebase_core: ^5.1.0
+  firebase_auth: ^7.0.1
+  cloud_firestore: ^7.1.0
+  firebase_storage: ^14.0.1
+
+  # Character Studio (selfie / gallery + face crop)
+  image_picker: ^1.1.2
+  image_cropper: ^13.0.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  # All fighters and stages are drawn procedurally in code, so no image
+  # assets are required to run the game. Add sprite sheets here later, e.g.:
+  # assets:
+  #   - assets/images/

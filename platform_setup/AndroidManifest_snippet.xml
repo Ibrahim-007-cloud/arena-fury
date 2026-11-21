@@ -1,0 +1,12 @@
+<!--
+  Add inside <application> in android/app/src/main/AndroidManifest.xml
+  (required by image_cropper / uCrop).
+-->
+<activity
+    android:name="com.yalantis.ucrop.UCropActivity"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+<!--
+  Also make sure the main <activity> lets the game run full-screen landscape:
+      android:screenOrientation="sensorLandscape"
+-->

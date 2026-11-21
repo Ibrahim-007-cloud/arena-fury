@@ -1,0 +1,10 @@
+<!-- Add inside the top-level <dict> of ios/Runner/Info.plist -->
+<key>NSCameraUsageDescription</key>
+<string>Take a selfie to put your face on your fighter.</string>
+<key>NSPhotoLibraryUsageDescription</key>
+<string>Pick a photo to put your face on your fighter.</string>
+<key>UISupportedInterfaceOrientations</key>
+<array>
+    <string>UIInterfaceOrientationLandscapeLeft</string>
+    <string>UIInterfaceOrientationLandscapeRight</string>
+</array>
